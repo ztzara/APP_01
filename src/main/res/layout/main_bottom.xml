@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="#f0f0f0">
+
+    <LinearLayout
+        android:id="@+id/main_lz"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#f0f0f0">
+
+        <ImageButton
+            android:id="@+id/ibt_main_lz"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/index6"
+            android:contentDescription="@string/app_name"
+            android:clickable="false"
+            android:background="#f0f0f0"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="绿植"
+            android:clickable="false"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_hp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#f0f0f0">
+
+        <ImageButton
+            android:id="@+id/ibt_main_hp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:clickable="false"
+            android:background="#f0f0f0"
+            android:src="@drawable/index2"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="花圃"
+            android:clickable="false"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_qt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#f0f0f0">
+
+        <ImageButton
+            android:id="@+id/ibt_main_qt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:clickable="false"
+            android:background="#f0f0f0"
+            android:src="@drawable/index"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="其他"
+            android:clickable="false"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_wd"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#f0f0f0">
+
+        <ImageButton
+            android:id="@+id/ibt_main_wd"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/app_name"
+            android:clickable="false"
+            android:background="#f0f0f0"
+            android:src="@drawable/index4"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="我的"
+            android:clickable="false"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
